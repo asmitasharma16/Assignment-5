@@ -12,14 +12,12 @@ breadth=int(input("enter breadth "))
 if(length==breadth):
     print("dimensions are of square")
 else:
-        print("dimensions are of rectangle")
+    print("dimensions are of rectangle")
 
 #Q.3- Take the input age of 3 people and determine oldest and youngest among them.
 age1=int(input("enter age of 1st person "))
 age2=int(input("enter age of 2nd person "))
 age3=int(input("enter age of 3rd person "))
-oldest=-1
-youngest=100
 print("age of oldest person",end=" ")
 if(age1>age2):
          if(age1>age3):
