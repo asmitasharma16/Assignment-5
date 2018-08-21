@@ -62,10 +62,6 @@ elif((sex=='M' or sex=='m')):
           print("Employee can work anywhere")
       elif(age>=40 and age<=60):
         print("Employee will work in urban area only")
-      else:
-            print("ERROR")
-else:
-    print("ERROR")
 
 #Q.5- A shop will give discount of 10% if the cost of purchased quantity is more than 1000.Ask user for quantity Suppose, one unit will cost 100. Judge and print total cost for user.             
 n=int(input("Enter the quantity of item "))
