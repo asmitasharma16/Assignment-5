@@ -53,6 +53,8 @@ print(youngest)
 age=int(input("enter age of person "))
 sex=input("sex M or F ")
 status=input("Marital status y or N ")
+if(age<20 or age>60):
+    print("ERROR")
 if(sex=='F' or sex=='f'):
     print("employee will work only in urban area")
 elif((sex=='M' or sex=='m')):
@@ -159,13 +161,12 @@ for i in range (4):
 n=int(input("Enter range of list"))
 l1=[]
 for i in range (n):
-    b=int(input())
-    l1.append(b)
+    a=int(input())
+    l1.append(a)
 num=int(input("Enter a number to search in list "))
 for i in range (n):
-    if(l1[i]==num):
-        l1.remove(l1[i])
-        break;
+    if num in l1:
+        l1.remove(num)
 print(l1)
     
 
